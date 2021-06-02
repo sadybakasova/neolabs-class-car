@@ -36,3 +36,13 @@ class PasCar1 extends PassengerCar {
 const BMWX6=new PasCar1('white','Italy','BMWX6','Karl Rapp','sport car',true)
 const Ferrari=new PasCar1('yellow','Italy','Ferrari','Enzo Ferrari',true)
 console.log(BMWX6,Ferrari)
+
+class PasCar2 extends PasCar1 {
+    constructor(color=null,country=null,brand=null,maker=null,products=null,price=null){
+        super(color,country,brand,maker,products)
+        this.price=price
+    }
+}
+const BMWmaybach=new PasCar2('white','Italy','BMWX6','Karl Rapp','sport car','rich',true)
+
+console.log(BMWmaybach)
