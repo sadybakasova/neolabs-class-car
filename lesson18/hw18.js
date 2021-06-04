@@ -43,6 +43,6 @@ class PasCar2 extends PasCar1 {
         this.price=price
     }
 }
-const BMWmaybach=new PasCar2('white','Italy','BMWX6','Karl Rapp','sport car','rich',true)
+const BMWmaybach=new PasCar2('white','Italy','BMWX6','Karl Rapp','sport car','13250000',true)
 
 console.log(BMWmaybach)
